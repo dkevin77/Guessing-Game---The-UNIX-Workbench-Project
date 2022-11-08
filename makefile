@@ -10,6 +10,7 @@ README.md:
 	echo -n 'Number of lines in **guessinggame.sh**: ' >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 	echo " lines" >> README.md
+	echo "*Created by Daryl Kevin*" >> README.md
 
 clean:
 	rm README.md
